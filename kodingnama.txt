@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main() {
+	char depan[10];
+	char belakang[10];
+	
+	printf("masukan nama depan saya: ");
+	scanf("%s", depan);
+	printf("masukan nama belakang saya: ");
+	scanf("%s", belakang);
+	printf("nama saya merupakan %s %s",depan,belakang);
+	}
